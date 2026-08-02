@@ -202,7 +202,7 @@ header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption
 }
 #About .container .row .part1 button:hover:before,
 #About .container .row .part1 button:hover::after{
-    transform: translateY(0%);
+    transform: translateY(1%);
 }
 #About .part2 .content .box {
     border-radius: 10px;
