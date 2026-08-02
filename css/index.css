@@ -430,6 +430,9 @@ header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption
 }
 .modal .modal-dialog .modal-content {
     width: 60%;
+    background-color: transparent;
+}
+.modal .modal-dialog .modal-content video{
     border-radius: 10px;
     overflow:hidden;
 }
