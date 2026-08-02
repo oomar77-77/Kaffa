@@ -486,6 +486,9 @@ header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption
 #ContactUs button:hover::after{
     bottom: 0%;
 }
+#ContactUs button:hover{
+    border: 1px solid #fff;
+}
 footer{
     background-color: #333333;
     color: #fff;
