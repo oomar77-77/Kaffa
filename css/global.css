@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+p,
+span,
+a,
+form{
+    font-family: "Oswald", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+footer{
+    font-family: "Sansita Swashed", system-ui;
+}
+section{
+    padding-block: 40px;
+}
+span.text{
+    position: relative;
+    z-index: 2;
+    transition-duration: .5s;
+}
+#Services p,
+#About p {
+  color: #c2c2c2;
+}

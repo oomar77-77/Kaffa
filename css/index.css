@@ -1,0 +1,490 @@
+header nav{
+    z-index: 2;
+    width: 100%;
+}
+header nav .nav-link{
+    letter-spacing: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+header nav .nav-link{
+    position: relative;
+}
+header nav.navba .navbar-nav{
+    column-gap: 40px;
+}
+ header nav.navbar .navbar-toggler{
+    column-gap: 20px;
+    
+ }
+header nav .nav-link::before,
+header nav .nav-link span.shape,
+header nav .nav-link::after{
+   content: "";
+   display: block;
+   width: 100%;
+   height: calc(100%/3);
+   position: absolute;
+   background-color: var(--bs-success);
+   transition-duration: .5s;
+}
+header nav .nav-link::before{
+    top: 0;
+    left: -100%;
+}
+header nav .nav-link:hover::before{
+    left: 0%;
+}
+header nav .nav-link span.shape{
+    top:calc(100%/3) ;
+    right: -100%;
+}
+header nav .nav-link:hover span.shape{
+    right: 0%;
+}
+header nav a::after{
+    bottom: 0;
+    left: -100%;
+}
+header nav a:hover::after{
+    left: 0%;
+}
+header #carouselExampleCaptions .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--bs-success);
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1){
+    background-image: url("./../images/banner1.jpg");
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2){
+    background-image: url("./../images/banner2.jpg");
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3){
+    background-image: url("./../images/banner3.jpg");
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(4){
+    background-image: url("./../images/banner4.jpg");
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption{
+    position: initial;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p{
+    letter-spacing: 2px;
+    width: 75%;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons a{
+    position: relative;
+    overflow: hidden;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons a::before,
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border: 22px solid;
+    border-top-color: var(--bs-success);
+    border-right-color: var(--bs-success);
+    border-bottom-color: var(--bs-success);
+    border-left-color: var(--bs-success);
+    transition-duration: 1s;
+
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption >*{
+    transform: translateY(-30px);
+    opacity: 0;
+    transition-duration: 1s;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item.active .carousel-caption >*{
+    transform: translateY(0px);
+    opacity: 1;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p{
+    transition-delay: .3s;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons{
+    transition-delay: .6s;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons a::before{
+    left:-100%;
+    border-right-color: transparent;
+
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons a:hover::before{
+    left:0%;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons a::after{
+    right: -100%;
+    border-left-color: transparent;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons a:hover::after{
+    right: 0%;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons a span{
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 2;
+    transition-duration: .5s;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons a:hover span{
+    color:#fff;
+}
+#About{
+    background-color: #4D8B55;
+    background-image: url("../images/leaves_pattern.png");
+    background-position: center;
+}
+#About .container .row .part1 .span{
+    color: #F0F6F1;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#About .container .row .part1 h3{
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+#About .container .row .part1 p{
+    color: #F0F6F1;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+#About .container .row .part1 button{
+    position: relative;
+    overflow: hidden;
+    padding: 6px 12px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+#About .container .row .part1 button:hover span.text{
+    color: var(--bs-success);
+}
+#About .container .row .part1 button::before,
+#About .container .row .part1 button::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    transition-duration: .5s;
+}
+#About .container .row .part1 button::before{
+    top: 0;
+    transform: translateY(-100%);
+}
+#About .container .row .part1 button::after{
+    bottom: 0;
+    transform: translateY(100%);
+}
+#About .container .row .part1 button:hover:before,
+#About .container .row .part1 button:hover::after{
+    transform: translateY(0%);
+}
+#About .part2 .content .box {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#About .part2 .content:nth-of-type(1) .box .body{
+    background-color: #404042;
+}
+#About .part2 .content:nth-of-type(2) .box .body{
+    background-color: #87744A;
+}
+#About .part2 .content:nth-of-type(3) .box .body{
+    background-color: #6D1F37;
+}   
+#About .part2 .content .box .front,
+#About .part2 .content .box .back{
+    backface-visibility: hidden;
+}
+#About .part2 .content .box .front{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition-duration: 1s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#About .part2 .content:nth-of-type(1) .box .front{
+    background-image: url("../images/about_front_01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#About .part2 .content:nth-of-type(2) .box .front{
+    background-image: url("../images/about_front_02.jpg");
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#About .part2 .content:nth-of-type(3) .box .front{
+    background-image: url("../images/about_front_03.jpg");
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#About .part2 .content .box:hover .front{
+    transform: rotateY(180deg);
+   
+}
+#About .part2 .content .box .back{
+    transform: rotateY(180deg);
+    transition-duration: 1s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#About .part2 .content .box:hover .back{
+    transform: rotateY(0deg);
+}
+#About .part2 .content .box button{
+    color: #fff;
+    border-radius: 50px;
+    padding: 5px 20px;
+    transition-duration: .5s;
+
+}
+#About .part2 .content:nth-of-type(1) .box .body button:hover{
+    background-color: #fff;
+    color: #404042;
+}
+#About .part2 .content:nth-of-type(2) .box .body button:hover{
+     background-color: #fff;
+    color: #87744A;
+}
+#About .part2 .content:nth-of-type(3) .box .body button:hover{
+     background-color: #fff;
+    color: #6D1F37;
+}   
+#About .part2 .content .box .body button i{
+    transition-duration: .5s;
+}
+    
+#About .part2 .content .box .body button:hover i{
+    margin-left: 5px;
+}
+#Services{
+    background-image: url("../images/services-beans_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+#Services i {
+  font-size: 40px;
+}
+#Services h4{
+    font-size: 25px;
+}
+#Services::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#Services p{
+   
+    font-weight: 200;
+    
+}
+#Services .container .content .row .part2 img{
+    animation-name:animate-1 ;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+#Menu {
+    background-image: url("../images/leaves_pattern.png");
+    background-color: #4D8B55;
+    background-position: center;
+}
+#Menu ul.nav{
+    width: fit-content;
+    margin: auto;
+    
+}
+#Menu ul.nav button{
+    color: #fff;
+    transition-duration: .5s;
+}
+#Menu ul.nav button:hover,
+#Menu ul.nav button.active
+{
+    background-color: #fff;
+    color: var(--bs-success);
+}
+#Menu .tab-pane .box{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    transform: scale(0);
+    transition-duration: 1s;
+}
+#Menu .tab-pane.show .box{
+    transform: scale(1);
+}
+#Menu .container .row .item .box img{
+    width: 100%;
+    transform: scale(.9);
+    transition-duration: 1s;
+}
+#Menu .container .row .item .box:hover img{
+    transform: scale(1.1);
+}
+#Menu .container .row .item .box h6,
+#Menu .container .row .item .box p{
+    position: absolute;
+    left: 0px;
+    background-color: var(--bs-success);
+    background-image: url("../images/leaves_pattern.png");
+    padding:5px 10px;
+    border-radius: 0px 10px 10px 0px;
+    transform: translateX(-100%);
+    transition-duration: 1s;
+}
+#Menu .container .row .item .box:hover h6,
+#Menu .container .row .item .box:hover p{
+     transform: translateX(0%);
+}
+
+#Menu .container .row .item .box h6{
+    top: 10px;
+}
+#Menu .container .row .item .box P{
+    bottom: 10PX;
+}
+#Beans_Coffee{
+    background-image: url(../images/Beans_ice_drinks_bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#Beans_Coffee::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#Beans_Coffee h2{
+    text-shadow: 2px 2px 1px #362d27;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+#Beans_Coffee h4{
+    font-size: 50px;
+}
+#Beans_Coffee i{
+    cursor: pointer;
+    transition-duration: .5s;
+    font-size: 100px;
+}
+#Beans_Coffee i:hover{
+    color: var(--bs-success);
+}
+.modal .modal-dialog {
+  max-width: initial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.modal .modal-dialog .modal-content {
+    width: 60%;
+    border-radius: 10px;
+    overflow:hidden;
+}
+#ContactUs{
+    background-image: url(../images/Book_black_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ContactUs form{
+    background-color: #4D8B55;
+    background-image: url("../images/leaves_pattern.png");
+    background-position: center;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+}
+#ContactUs form input,
+#ContactUs form textarea,
+#ContactUs form button{
+    width: 85%;
+    margin: auto;
+    font-weight: lighter;
+}
+#ContactUs form input:focus,
+#ContactUs form textarea:focus{
+    box-shadow: none;
+}
+#ContactUs textarea{
+    resize: none;
+    height: 250px;
+}
+#ContactUs button{
+    position: relative;
+    overflow: hidden;
+    transition-duration: .5s;
+    width: 100%;
+}
+#ContactUs button::after{
+    content: "";
+  display: block;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4d8b55;
+  transition-duration: .5s;
+  z-index: 1;
+}
+#ContactUs button:hover::after{
+    bottom: 0%;
+}
+footer{
+    background-color: #333333;
+    color: #fff;
+    padding-block:10px;
+}

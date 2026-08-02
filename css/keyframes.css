@@ -1,0 +1,8 @@
+@keyframes animate-1 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+         transform: translateY(-30px);
+    }
+}

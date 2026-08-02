@@ -1,0 +1,200 @@
+@media (max-width: 1300px) {
+.title h2{
+    font-size: 40px;
+}
+header nav.navbar .navbar-nav{
+        background-color: black;
+        text-align: center;
+        border-radius: 5px;
+        column-gap: 0;
+        row-gap: 10;
+        padding: 15px 10px;
+}
+header nav.navbar .navbar-toggler{
+        border-color: var(--bs-success);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50px;
+        height: 40px;
+        padding: 0;
+        transition-duration: .5s;
+}
+header nav.navbar .navbar-toggler:focus{
+        box-shadow: none;
+        background-color: #fff;
+}
+header nav.navbar .navbar-toggler span{
+        display: block;
+        width: 60%;
+        height: 3px;
+        background-color: var(--bs-success);
+
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 25px;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p{
+        width: 100%;
+        font-size: 14px;
+}
+#About .part2 .content .box {
+        max-width: 280px;
+        margin: auto;}
+#Services .container .content .row .part2 img{
+        max-width: 100%;
+}
+#Menu ul.nav{
+        width: max-content;
+}
+#Menu .tab-pane .box{
+        max-width: 280px;
+        margin: auto;
+}
+#Menu ul.nav{
+    margin-bottom: 20px;
+    
+}
+#Beans_Coffee h2{
+    font-size: 25px;
+}
+#Beans_Coffee h4{
+    font-size: 25px;
+}
+#Beans_Coffee i{
+    font-size: 50px;
+}
+.modal-dialog {
+  transition: transform .3s ease-out;
+  transform: translateY(-50px);
+}
+.modal .modal-dialog .modal-content {
+    width: 90%;
+}
+#ContactUs form{
+    width: 90%;
+}
+#ContactUs form input,
+#ContactUs form textarea,
+#ContactUs form button{
+    width: 100%;
+    margin: auto;
+}
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 30px;
+    }
+    header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p{
+        width: 100%;
+        font-size: 16px;
+    }
+    header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons span{
+        font-size: 16px;
+    }
+    #Services .container .content .row .part2 img{
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+#Beans_Coffee h2{
+    font-size: 30px;
+}
+#Beans_Coffee h4{
+    font-size: 35px;
+}
+#Beans_Coffee i{
+    font-size: 65px;
+}
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 33px;
+}
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p{
+        width: 100%;
+        font-size: 18px;
+}
+#About .part2 .content .box {
+        width: initial;
+}
+.modal .modal-dialog .modal-content {
+    width: 70%;
+  }
+#Beans_Coffee h2{
+    font-size: 40px;
+}
+#Beans_Coffee h4{
+    font-size: 45px;
+}
+#Beans_Coffee i{
+    font-size:80px;
+}
+#ContactUs form{
+    width: 100%;
+}
+#ContactUs form input,
+#ContactUs form textarea,
+#ContactUs form button{
+    width: 100%;
+    margin: auto;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 37px;
+    }
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 20px;
+    }
+header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .buttons span{
+        font-size: 18px;
+    }
+#Services .container .content .row .part2 img {
+        width: 50%;
+}
+#Menu .tab-pane .box{
+       max-width: 360px;
+       height: 340px;
+       
+}
+#Beans_Coffee h2{
+    font-size: 50px;
+}
+#Beans_Coffee h4{
+    font-size: 60px;
+}
+#Beans_Coffee i{
+    font-size:100px;
+}
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+    header nav.navbar .navbar-nav{
+        background-color: transparent;
+     }
+    header nav.navbar .navbar-toggler{
+        display: none;
+     }
+    header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 55px;
+    }
+  #Services .container .content .row .part2 img{
+    width: 100%;
+  }
+  #Menu .tab-pane .box{
+       height: initial;
+}
+.modal .modal-dialog .modal-content {
+    width: 60%;
+}
+}
+@media (min-width: 1181px) and (max-width: 1300px) {
+    #Menu .tab-pane .box{
+       height: initial;
+       
+}
+}
