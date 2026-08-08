@@ -33,11 +33,11 @@ header nav.navbar .navbar-toggler span{
 
 }
 header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5{
-        font-size: 25px;
+        font-size: 30px;
 }
 header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p{
         width: 100%;
-        font-size: 14px;
+        font-size: 12px;
 }
 #About .part2 .content .box {
         max-width: 280px;
