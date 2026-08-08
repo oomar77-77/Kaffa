@@ -171,6 +171,9 @@ header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption
 #Services .container .content .row .part2 img {
         width: 50%;
 }
+#Menu{
+    padding-block: 35px !important;
+}
 #Menu .tab-pane .box{
        max-width: 360px;
        height: 340px;
