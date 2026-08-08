@@ -441,6 +441,7 @@ header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position:relative;
 }
 #ContactUs form{
     background-color: #4D8B55;
@@ -488,6 +489,11 @@ header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption
 }
 #ContactUs button:hover{
     border: 1px solid #fff;
+}
+#ContactUs .container .content .row .item:nth-of-type(1) img {
+    position: absolute;
+    bottom: 0;
+    width: 45%;
 }
 footer{
     background-color: #333333;
