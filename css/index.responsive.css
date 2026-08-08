@@ -83,6 +83,9 @@ header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption
     width: 100%;
     margin: auto;
 }
+#ContactUs .container .content .row .item:nth-of-type(1) img {
+    display:none;
+}
 }
 
 @media (min-width: 371px) and (max-width: 1300px) {
@@ -212,6 +215,9 @@ header #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption
   }
   #Menu .tab-pane .box{
        height: initial;
+}
+#ContactUs .container .content .row .item:nth-of-type(1) img {
+    display:initial;
 }
 .modal .modal-dialog .modal-content {
     width: 60%;
